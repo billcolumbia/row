@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tile {
+  background-color: #FAFAFA;
+  width: 60px;
+  height: 78px;
+  border: 1px solid #F4F4F4;
+  box-shadow: 4px -2px 0 3px #F9F9F9;
+  border-radius: 8px;
+  margin: 12px 8px 12px;
+  position: relative;
+}
+
+
+.Tile.Bamboo .Tile__Name,
+.Tile.Dot .Tile__Name,
+.Tile.Character .Tile__Name {
+  font-size: 32px;
+}
+
+
+.Tile__Name {
+
+}
+
+.Tile__Value {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: #FD4567;
+  font-weight: 700;
+}
