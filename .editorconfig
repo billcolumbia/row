@@ -10,7 +10,7 @@ indent_size = 4
 [*.{js,jsx,svelte,scss,css}]
 indent_size = 2
 
-[*.twig]
+[*.html]
 indent_size = 2
 
 [*.{yml,yaml}]
